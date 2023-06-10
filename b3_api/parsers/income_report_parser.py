@@ -141,7 +141,6 @@ def income_report_parser(html: str):
         fund_data_table,
         known_columns=WELL_KNOWN_DATA_COLUMNS,
         col_per_row=2,
-        debug=True,
     )
     for column in fund_data:
         if column.column_def.id == "ticker":
@@ -152,7 +151,6 @@ def income_report_parser(html: str):
     income_data = find_table_data(
         income_data_table,
         known_columns=WELL_KNOWN_INCOME_COLUMNS,
-        debug=True,
     )
     for column in income_data:
         if column.column_def.id == "dividend":

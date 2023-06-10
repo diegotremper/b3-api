@@ -4,6 +4,7 @@ from pydantic import BaseModel, validator
 
 class APIConfigs(BaseModel):
     http_cache_dir: str = "data/cache/b3/http_cache"
+    requests_per_seconds: int = 5
     http_user_agent: str = "Mozilla/5.0 (Free APIs Please) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36"
     fund_calls_base_url: str = (
         "https://sistemaswebb3-listados.b3.com.br/fundsProxy/fundsCall"

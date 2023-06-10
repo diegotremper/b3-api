@@ -59,7 +59,17 @@ def fund_events(
     if response.status_code != 200:
         raise Exception("Error getting fund details for {}".format(symbol))
 
-    payload = _Payload.parse_raw(response.json())
+    try:
+        payload = _Payload.parse_raw(response.json())
+    except Exception as e:
+        if session.cache:
+            session.cache.delete(urls=[url])
+        raise Exception(
+            "Error parsing stock events for {}:\n{}".format(
+                symbol, response.text
+            )
+        ) from e
+
     payload.stockDividends.sort(key=lambda e: e.lastDatePrior, reverse=True)
 
     return payload.stockDividends

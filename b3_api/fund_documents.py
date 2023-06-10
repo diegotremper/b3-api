@@ -90,7 +90,7 @@ def fund_documents(
     if response.status_code != 200:
         raise Exception("Error getting fund documents for {}".format(cnpj))
 
-    all_docs = parse_raw_as(list[Document], response.json())
+    all_docs = parse_raw_as(list[Document], response.text)
     # filter out inactive documents
     all_docs = [
         doc

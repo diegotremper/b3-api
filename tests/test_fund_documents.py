@@ -8,7 +8,7 @@ def test_fund_documents_incomes(request, mocker, requests_mock):
 
     requests_mock.get(
         "https://sistemaswebb3-listados.b3.com.br/fundsProxy/fundsCall/GetListedDocumentsTypeHistory/eyJjbnBqIjogIjIxNDA4MDYzMDAwMTUxIiwgImRhdGVJbml0aWFsIjogIjIwMjAtMDEtMDEiLCAiZGF0ZUZpbmFsIjogIjIwMjAtMTItMzEiLCAidHlwZSI6IDQxfQ==",
-        json=incomes,
+        text=incomes,
         headers={"Content-Type": "application/json"},
     )
 
