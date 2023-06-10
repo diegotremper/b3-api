@@ -40,6 +40,7 @@ def test_fund_detail(request, mocker, requests_mock):
         == "PRAIA DO BOTAFOGO, 501 - 5 ANDAR - CEP: 22250911 CIDADE: RIO DE JANEIRO UF: RJ"
     )
     assert fund.companyPhoneNumberDDD == "11"
+    assert fund.companyPhoneNumberDDD == "11"
     assert fund.companyPhoneNumber == "33832513"
     assert fund.companyPhoneNumberFax == "0"
     assert fund.companyEmail == "sh-contato-fundoimobiliario@btgpactual.com"
