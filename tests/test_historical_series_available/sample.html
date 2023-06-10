@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script type="text/javascript" src="/ruxitagentjs_ICA2NVfgjqru_10265230425083909.js" data-dtconfig="rid=RID_1414152006|rpid=-989512935|domain=bmfbovespa.com.br|reportUrl=/rb_ea8d7b8f-040c-423b-b726-54310cab2c40|app=a8c099ff7888fac8|featureHash=ICA2NVfgjqru|vcv=2|rdnt=1|uxrgce=1|bp=3|cuc=kju5m9kg|mel=100000|dpvc=1|ssv=4|lastModification=1686056358479|dtVersion=10265230425083909|tp=500,50,0,1|agentUri=/ruxitagentjs_ICA2NVfgjqru_10265230425083909.js"></script>
+        <link rel="stylesheet" href="/aspnet_client/system_web/2_0_50727/Themes/SiteBmfBovespa/foundation.css"/>
+        <link rel="stylesheet" href="/aspnet_client/system_web/2_0_50727/Themes/SiteBmfBovespa/jquery.ui.datepicker.css"/>
+        <script src="/aspnet_client/system_web/2_0_50727/Themes/SiteBmfBovespa/js/vendor/modernizr.js"></script>
+        <script src="/aspnet_client/system_web/2_0_50727/Themes/SiteBmfBovespa/js/vendor/jquery.js"></script>
+        <script src="/aspnet_client/system_web/2_0_50727/Themes/SiteBmfBovespa/js/foundation.min.js"></script>
+        <script language="JavaScript" src="/js/SeriesHistoricas.js"></script>
+    </head>
+    <body>
+        <!-- Google Tag Manager -->
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KPF8G3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0]
+                  , j = d.createElement(s)
+                  , dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            }
+            )(window, document, 'script', 'dataLayer', 'GTM-KPF8G3');
+        </script>
+        <!-- End Google Tag Manager -->
+        <div id="divContainerIframeBmf">
+            <div class="row">
+                <div class="large-12 columns">
+                    <form name="frmSerHist">
+                        <p>Em função do tamanho de alguns arquivos, mesmo estando compactados, este processo poderá levar alguns minutos.</p>
+                        <h3>Séries Anuais (todos os dias úteis do ano escolhido)</h3>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <label id="SpanSeries">
+                                    Ano
+        
+                                    <select name='cboAno' onChange='javascript:AbrirValidacao(this.value);VoltarPosInic(1);'>
+                                        <option></option>
+                                        <option value=COTAHIST_A2023.ZIP>2023</option>
+                                        <option value=COTAHIST_A2022.ZIP>2022</option>
+                                        <option value=COTAHIST_A2021.ZIP>2021</option>
+                                        <option value=COTAHIST_A2020.ZIP>2020</option>
+                                        <option value=COTAHIST_A2019.ZIP>2019</option>
+                                        <option value=COTAHIST_A2018.ZIP>2018</option>
+                                        <option value=COTAHIST_A2017.ZIP>2017</option>
+                                        <option value=COTAHIST_A2016.ZIP>2016</option>
+                                        <option value=COTAHIST_A2015.ZIP>2015</option>
+                                        <option value=COTAHIST_A2014.ZIP>2014</option>
+                                        <option value=COTAHIST_A2013.ZIP>2013</option>
+                                        <option value=COTAHIST_A2012.ZIP>2012</option>
+                                        <option value=COTAHIST_A2011.ZIP>2011</option>
+                                        <option value=COTAHIST_A2010.ZIP>2010</option>
+                                        <option value=COTAHIST_A2009.ZIP>2009</option>
+                                        <option value=COTAHIST_A2008.ZIP>2008</option>
+                                        <option value=COTAHIST_A2007.zip>2007</option>
+                                        <option value=COTAHIST_A2006.zip>2006</option>
+                                        <option value=COTAHIST_A2005.zip>2005</option>
+                                        <option value=COTAHIST_A2004.zip>2004</option>
+                                        <option value=COTAHIST_A2003.zip>2003</option>
+                                        <option value=COTAHIST_A2002.zip>2002</option>
+                                        <option value=COTAHIST_A2001.zip>2001</option>
+                                        <option value=COTAHIST_A2000.zip>2000</option>
+                                        <option value=COTAHIST_A1999.zip>1999</option>
+                                        <option value=COTAHIST_A1998.zip>1998</option>
+                                        <option value=COTAHIST_A1997.zip>1997</option>
+                                        <option value=COTAHIST_A1996.zip>1996</option>
+                                        <option value=COTAHIST_A1995.zip>1995</option>
+                                        <option value=COTAHIST_A1994.zip>1994</option>
+                                        <option value=COTAHIST_A1993.zip>1993</option>
+                                        <option value=COTAHIST_A1992.zip>1992</option>
+                                        <option value=COTAHIST_A1991.zip>1991</option>
+                                        <option value=COTAHIST_A1990.zip>1990</option>
+                                        <option value=COTAHIST_A1989.zip>1989</option>
+                                        <option value=COTAHIST_A1988.zip>1988</option>
+                                        <option value=COTAHIST_A1987.zip>1987</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                        <p class="legenda">No ano corrente, o arquivo exibe dados acumulados até o último dia útil disponível.</p>
+                        <h3>Séries Mensais (últimos 12 meses)</h3>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <label id="SpanSeries">
+                                    Mês
+        
+                                    <select name='cboMes' onChange='javascript:AbrirValidacao(this.value);VoltarPosInic(2);'>
+                                        <option></option>
+                                        <option value=COTAHIST_M052023.ZIP>Mai/2023</option>
+                                        <option value=COTAHIST_M042023.ZIP>Abr/2023</option>
+                                        <option value=COTAHIST_M032023.ZIP>Mar/2023</option>
+                                        <option value=COTAHIST_M022023.ZIP>Fev/2023</option>
+                                        <option value=COTAHIST_M012023.ZIP>Jan/2023</option>
+                                        <option value=COTAHIST_M122022.ZIP>Dez/2022</option>
+                                        <option value=COTAHIST_M112022.ZIP>Nov/2022</option>
+                                        <option value=COTAHIST_M102022.ZIP>Out/2022</option>
+                                        <option value=COTAHIST_M092022.ZIP>Set/2022</option>
+                                        <option value=COTAHIST_M082022.zip>Ago/2022</option>
+                                        <option value=COTAHIST_M072022.ZIP>Jul/2022</option>
+                                        <option value=COTAHIST_M062022.ZIP>Jun/2022</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                        <h3>Séries Diárias (do ano corrente)</h3>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <label id="SpanSeries">
+                                    Mês
+            
+                                    <select name='cboMesDia' onChange='javascript:MontaComboDia(this.value)'>
+                                        <option></option>
+                                        <option value=06>Jun</option>
+                                        <option value=05>Mai</option>
+                                        <option value=04>Abr</option>
+                                        <option value=03>Mar</option>
+                                        <option value=02>Fev</option>
+                                        <option value=01>Jan</option>
+                                    </select>
+                                    <input type=hidden id='hdnDados' name='hdnDados' value='02|01|COTAHIST_D01022023.ZIP_|_03|01|COTAHIST_D01032023.ZIP_|_06|01|COTAHIST_D01062023.ZIP_|_01|02|COTAHIST_D02012023.ZIP_|_02|02|COTAHIST_D02022023.ZIP_|_03|02|COTAHIST_D02032023.ZIP_|_05|02|COTAHIST_D02052023.ZIP_|_06|02|COTAHIST_D02062023.ZIP_|_01|03|COTAHIST_D03012023.ZIP_|_02|03|COTAHIST_D03022023.ZIP_|_03|03|COTAHIST_D03032023.ZIP_|_04|03|COTAHIST_D03042023.ZIP_|_05|03|COTAHIST_D03052023.ZIP_|_01|04|COTAHIST_D04012023.ZIP_|_04|04|COTAHIST_D04042023.ZIP_|_05|04|COTAHIST_D04052023.ZIP_|_01|05|COTAHIST_D05012023.ZIP_|_04|05|COTAHIST_D05042023.ZIP_|_05|05|COTAHIST_D05052023.ZIP_|_06|05|COTAHIST_D05062023.ZIP_|_01|06|COTAHIST_D06012023.ZIP_|_02|06|COTAHIST_D06022023.ZIP_|_03|06|COTAHIST_D06032023.ZIP_|_04|06|COTAHIST_D06042023.ZIP_|_06|06|COTAHIST_D06062023.ZIP_|_02|07|COTAHIST_D07022023.ZIP_|_03|07|COTAHIST_D07032023.ZIP_|_06|07|COTAHIST_D07062023.ZIP_|_02|08|COTAHIST_D08022023.ZIP_|_03|08|COTAHIST_D08032023.ZIP_|_05|08|COTAHIST_D08052023.ZIP_|_01|09|COTAHIST_D09012023.ZIP_|_02|09|COTAHIST_D09022023.ZIP_|_03|09|COTAHIST_D09032023.ZIP_|_05|09|COTAHIST_D09052023.ZIP_|_01|10|COTAHIST_D10012023.ZIP_|_02|10|COTAHIST_D10022023.ZIP_|_03|10|COTAHIST_D10032023.ZIP_|_04|10|COTAHIST_D10042023.ZIP_|_05|10|COTAHIST_D10052023.ZIP_|_01|11|COTAHIST_D11012023.ZIP_|_04|11|COTAHIST_D11042023.ZIP_|_05|11|COTAHIST_D11052023.ZIP_|_01|12|COTAHIST_D12012023.ZIP_|_04|12|COTAHIST_D12042023.ZIP_|_05|12|COTAHIST_D12052023.ZIP_|_01|13|COTAHIST_D13012023.ZIP_|_02|13|COTAHIST_D13022023.ZIP_|_03|13|COTAHIST_D13032023.ZIP_|_04|13|COTAHIST_D13042023.ZIP_|_02|14|COTAHIST_D14022023.ZIP_|_03|14|COTAHIST_D14032023.ZIP_|_04|14|COTAHIST_D14042023.ZIP_|_02|15|COTAHIST_D15022023.ZIP_|_03|15|COTAHIST_D15032023.ZIP_|_05|15|COTAHIST_D15052023.ZIP_|_01|16|COTAHIST_D16012023.ZIP_|_02|16|COTAHIST_D16022023.ZIP_|_03|16|COTAHIST_D16032023.ZIP_|_05|16|COTAHIST_D16052023.ZIP_|_01|17|COTAHIST_D17012023.ZIP_|_02|17|COTAHIST_D17022023.ZIP_|_03|17|COTAHIST_D17032023.ZIP_|_04|17|COTAHIST_D17042023.ZIP_|_05|17|COTAHIST_D17052023.ZIP_|_01|18|COTAHIST_D18012023.ZIP_|_04|18|COTAHIST_D18042023.ZIP_|_05|18|COTAHIST_D18052023.ZIP_|_01|19|COTAHIST_D19012023.ZIP_|_04|19|COTAHIST_D19042023.ZIP_|_05|19|COTAHIST_D19052023.ZIP_|_01|20|COTAHIST_D20012023.ZIP_|_03|20|COTAHIST_D20032023.ZIP_|_04|20|COTAHIST_D20042023.ZIP_|_03|21|COTAHIST_D21032023.ZIP_|_02|22|COTAHIST_D22022023.ZIP_|_03|22|COTAHIST_D22032023.ZIP_|_05|22|COTAHIST_D22052023.ZIP_|_01|23|COTAHIST_D23012023.ZIP_|_02|23|COTAHIST_D23022023.ZIP_|_03|23|COTAHIST_D23032023.ZIP_|_05|23|COTAHIST_D23052023.ZIP_|_01|24|COTAHIST_D24012023.ZIP_|_02|24|COTAHIST_D24022023.ZIP_|_03|24|COTAHIST_D24032023.ZIP_|_04|24|COTAHIST_D24042023.ZIP_|_05|24|COTAHIST_D24052023.ZIP_|_01|25|COTAHIST_D25012023.ZIP_|_04|25|COTAHIST_D25042023.ZIP_|_05|25|COTAHIST_D25052023.ZIP_|_01|26|COTAHIST_D26012023.ZIP_|_04|26|COTAHIST_D26042023.ZIP_|_05|26|COTAHIST_D26052023.ZIP_|_01|27|COTAHIST_D27012023.ZIP_|_02|27|COTAHIST_D27022023.ZIP_|_03|27|COTAHIST_D27032023.ZIP_|_04|27|COTAHIST_D27042023.ZIP_|_02|28|COTAHIST_D28022023.ZIP_|_03|28|COTAHIST_D28032023.ZIP_|_04|28|COTAHIST_D28042023.ZIP_|_03|29|COTAHIST_D29032023.ZIP_|_05|29|COTAHIST_D29052023.ZIP_|_01|30|COTAHIST_D30012023.ZIP_|_03|30|COTAHIST_D30032023.ZIP_|_05|30|COTAHIST_D30052023.ZIP_|_01|31|COTAHIST_D31012023.ZIP_|_03|31|COTAHIST_D31032023.ZIP_|_05|31|COTAHIST_D31052023.ZIP_|_'>
+                                </label>
+                            </div>
+                            <div class="large-1 columns end">
+                                <label id="SpanSeries">
+                                    Dia
+            
+                                    <select id="cboDia" name="cboDia" onChange="javascript:AbrirValidacao(this.value);VoltarPosInic(3);">
+                                        <option></option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                        <!--p class="legenda">Nota: Caso queira uma data específica que não esteja disponível nesta página, <a href="FormSeriesHistoricasPrecos.asp">clique aqui</a> para conhecer a política comercial aplicável.</p-->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="/aspnet_client/system_web/2_0_50727/Themes/SiteBmfBovespa/js/responsive.tables.min.js"></script>
+        <script src="/aspnet_client/system_web/2_0_50727/Themes/SiteBmfBovespa/js/jquery.ui.core.js"></script>
+        <script src="/aspnet_client/system_web/2_0_50727/Themes/SiteBmfBovespa/js/jquery.ui.datepicker.js"></script>
+        <script>
+            $(document).foundation();
+            $("table").addClass("responsive");
+        </script>
+        <script type="text/javascript">
+
+            window.addEventListener('click', iframe_resize);
+
+            function iframe_resize() {
+
+                height = $("#divContainerIframeBmf").height();
+
+                if (parent.postMessage) {
+                    parent.postMessage(height, "http://www.bmfbovespa.com.br");
+                }
+
+            }
+        </script>
+        <script type="text/javascript">
+            iframe_resize();
+        </script>
+    </body>
+</html>

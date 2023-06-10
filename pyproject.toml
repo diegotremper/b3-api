@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "b3-api"
+version = "0.1.4"
+description = ""
+authors = ["Diego"]
+readme = "README.md"
+packages = [{include = "b3_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+immutables = "^0.19"
+requests-cache = "^1.0.1"
+pydantic = "^1.10.9"
+beautifulsoup4 = "^4.12.2"
+loguru = "^0.7.0"
+html5lib = "^1.1"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pre-commit = "^3.3.2"
+autopep8 = "^2.0.2"
+pytest-cov = "^4.1.0"
+requests-mock = "^1.10.0"
+pytest-mock = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+	\.git
+| \.hg
+| \.mypy_cache
+| \.tox
+| \.venv
+| _build
+| buck-out
+| build   
+)/ 
+'''
+
+[tool.isort]
+profile = "black"

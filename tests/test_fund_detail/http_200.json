@@ -1,0 +1,39 @@
+{
+    "detailFund": {
+        "acronym": "PVBI",
+        "tradingName": "FII VBI PRI ",
+        "tradingCode": "PVBI11 ",
+        "tradingCodeOthers": "",
+        "cnpj": "35652102000176",
+        "classification": "Financeiro e Outros/Fundos/Fundos Imobiliários                                  ",
+        "webSite": "www.btgpactual.com",
+        "fundAddress": "PRAIA DO BOTAFOGO, 501 - 5 ANDAR - CEP: 22250911 CIDADE: RIO DE JANEIRO UF: RJ",
+        "fundPhoneNumberDDD": "11",
+        "fundPhoneNumber": "33832513",
+        "fundPhoneNumberFax": "0",
+        "positionManager": "DIRETOR RESPONSAVEL                     ",
+        "managerName": "ALLAN HADID                                                 ",
+        "companyAddress": "PRAIA DO BOTAFOGO, 501 - 5 ANDAR - CEP: 22250911 CIDADE: RIO DE JANEIRO UF: RJ",
+        "companyPhoneNumberDDD": "11",
+        "companyPhoneNumber": "33832513",
+        "companyPhoneNumberFax": "0",
+        "companyEmail": "sh-contato-fundoimobiliario@btgpactual.com",
+        "companyName": "FDO. INV. IMOB. VBI PRIME PROPERTIES              ",
+        "quotaCount": "12142208",
+        "quotaDateApproved": "07/11/2022",
+        "typeFNET": null,
+        "codes": [
+            "PVBI11"
+        ],
+        "codesOther": null,
+        "segment": null
+    },
+    "shareHolder": {
+        "shareHolderName": "BTG PACTUAL SERVIÇOS FINANC. S.A. DTVM  ",
+        "shareHolderAddress": "PRAIA DE BOTAFOGO 501 - 5.ANDAR - CEP: 22250040 Cidade: RIO DE JANEIRO UF: RJ",
+        "shareHolderPhoneNumberDDD": "21",
+        "shareHolderPhoneNumber": "32629600",
+        "shareHolderFaxNumber": "32628600",
+        "shareHolderEmail": "-"
+    }
+}

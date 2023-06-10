@@ -1,0 +1,452 @@
+[
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 07/12/2020",
+        "deliveryDate": "2020-12-07T17:08:21.739-03:00",
+        "deliveryTime": "17:08",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=130584",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=130584",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "07/12/2020",
+        "referenceDate": "2020-12-07T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "07/12/2020 17:08",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 09/11/2020",
+        "deliveryDate": "2020-11-09T16:52:45.367-03:00",
+        "deliveryTime": "16:52",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=125191",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=125191",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "09/11/2020",
+        "referenceDate": "2020-11-09T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "09/11/2020 16:52",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 07/10/2020",
+        "deliveryDate": "2020-10-07T16:03:04.601-03:00",
+        "deliveryTime": "16:03",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=120345",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=120345",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "07/10/2020",
+        "referenceDate": "2020-10-07T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "07/10/2020 16:03",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 08/09/2020",
+        "deliveryDate": "2020-09-08T16:13:32.511-03:00",
+        "deliveryTime": "16:13",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=115368",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=115368",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "08/09/2020",
+        "referenceDate": "2020-09-08T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "08/09/2020 16:13",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 07/08/2020",
+        "deliveryDate": "2020-08-07T15:34:45.598-03:00",
+        "deliveryTime": "15:34",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=110385",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=110385",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "07/08/2020",
+        "referenceDate": "2020-08-07T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "07/08/2020 15:34",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 07/07/2020",
+        "deliveryDate": "2020-07-07T15:30:36.589-03:00",
+        "deliveryTime": "15:30",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=105255",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=105255",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "07/07/2020",
+        "referenceDate": "2020-07-07T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "07/07/2020 15:30",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 05/06/2020",
+        "deliveryDate": "2020-06-05T16:21:12.78-03:00",
+        "deliveryTime": "16:21",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=99433",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=99433",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "05/06/2020",
+        "referenceDate": "2020-06-05T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "05/06/2020 16:21",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 08/05/2020",
+        "deliveryDate": "2020-05-08T15:07:36.57-03:00",
+        "deliveryTime": "15:07",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=94362",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=94362",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "08/05/2020",
+        "referenceDate": "2020-05-08T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "08/05/2020 15:07",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 07/04/2020",
+        "deliveryDate": "2020-04-07T16:28:02.332-03:00",
+        "deliveryTime": "16:28",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=89828",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=89828",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "07/04/2020",
+        "referenceDate": "2020-04-07T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "07/04/2020 16:28",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 06/03/2020",
+        "deliveryDate": "2020-03-06T16:28:43.481-03:00",
+        "deliveryTime": "16:28",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=84452",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=84452",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "06/03/2020",
+        "referenceDate": "2020-03-06T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "06/03/2020 16:28",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 07/02/2020",
+        "deliveryDate": "2020-02-07T16:06:38.301-03:00",
+        "deliveryTime": "16:06",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=79791",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=79791",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "07/02/2020",
+        "referenceDate": "2020-02-07T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "07/02/2020 16:06",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 08/01/2020 (Reapresentação)",
+        "deliveryDate": "2020-01-08T18:13:12.747-03:00",
+        "deliveryTime": "18:13",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=75190",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=75190",
+        "version": 2,
+        "deliveryTypeCode": "3",
+        "referenceDateFormat": "08/01/2020",
+        "referenceDate": "2020-01-08T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "08/01/2020 18:13",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 08/01/2020",
+        "deliveryDate": "2020-01-08T16:50:00.858-03:00",
+        "deliveryTime": "16:50",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=75144",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=75144",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "08/01/2020",
+        "referenceDate": "2020-01-08T00:00:00-03:00",
+        "documentSituation": "(Inativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "08/01/2020 16:50",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 08/01/2020",
+        "deliveryDate": "2020-01-08T16:48:40.759-03:00",
+        "deliveryTime": "16:48",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=75141",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=75141",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "08/01/2020",
+        "referenceDate": "2020-01-08T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "08/01/2020 16:48",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    },
+    {
+        "category": {
+            "id": 14,
+            "describle": "Aviso aos Cotistas - Estruturado",
+            "acronym": null,
+            "count": 0
+        },
+        "cnpj": null,
+        "acronym": "ACE",
+        "descriptionDocument": " (RBRP) Aviso aos Cotistas  - 08/01/2020",
+        "deliveryDate": "2020-01-08T16:47:21.825-03:00",
+        "deliveryTime": "16:47",
+        "urlFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=75139",
+        "urlViewerFundosNet": "https://fnet.bmfbovespa.com.br/fnet/publico/visualizarDocumento?id=75139",
+        "version": 1,
+        "deliveryTypeCode": "1",
+        "referenceDateFormat": "08/01/2020",
+        "referenceDate": "2020-01-08T00:00:00-03:00",
+        "documentSituation": "(Ativo)",
+        "subjects": "Distribuição de Rendimentos ",
+        "tradingName": "FII RBR PROP",
+        "deliveryDateFormat": "08/01/2020 16:47",
+        "descriptionKind": null,
+        "typeDocument": {
+            "id": 41,
+            "describle": "Rendimentos e Amortizações",
+            "acronym": null,
+            "count": 0
+        }
+    }
+]
