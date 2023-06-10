@@ -25,7 +25,9 @@ class AvailableSeries(BaseModel):
     daily_series: list[DataSeries]
 
 
-def historical_series_available(configs: APIConfigs = APIConfigs()) -> bytes:
+def historical_series_available(
+    configs: APIConfigs = APIConfigs(),
+) -> AvailableSeries:
     """
     Retrieves the available historical series from the B3 (Brazilian Stock Exchange) website.
 

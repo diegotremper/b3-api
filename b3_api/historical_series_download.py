@@ -22,6 +22,8 @@ def historical_series_download(
             Month of the historical series.
         day : int
             Day of the historical series.
+        filename : str
+            THe name of the file to be downloaded, if not provided, the function will try to guess the file name based on the other parameters.
 
     Returns
     -------
@@ -33,14 +35,20 @@ def historical_series_download(
     >>> content = historical_series_download(year=2010)
     >>> content = historical_series_download(year=2010, month=1)
     >>> content = historical_series_download(year=2010, month=1, day=2)
+    >>> content = historical_series_download(filename="COTAHIST_A2010.ZIP")
     """
     file_name = None
-    if "year" in kwargs:
-        file_name = "COTAHIST_A{year}.ZIP".format(**kwargs)
-    if "month" in kwargs:
-        file_name = "COTAHIST_M{month:02d}{year}.ZIP".format(**kwargs)
-    if "day" in kwargs:
-        file_name = "COTAHIST_D{day:02d}{month:02d}{year}.ZIP".format(**kwargs)
+    if "filename" in kwargs:
+        file_name = kwargs["filename"]
+    else:
+        if "year" in kwargs:
+            file_name = "COTAHIST_A{year}.ZIP".format(**kwargs)
+        if "month" in kwargs:
+            file_name = "COTAHIST_M{month:02d}{year}.ZIP".format(**kwargs)
+        if "day" in kwargs:
+            file_name = "COTAHIST_D{day:02d}{month:02d}{year}.ZIP".format(
+                **kwargs
+            )
 
     url = "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/{}".format(
         file_name

@@ -12,6 +12,7 @@ test:
 	open htmlcov/index.html
 
 build:
+	poetry run pytest
 	poetry version patch
 	poetry build
 
