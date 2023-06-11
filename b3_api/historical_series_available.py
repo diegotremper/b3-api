@@ -20,9 +20,9 @@ class DataSeries(BaseModel):
 
 
 class AvailableSeries(BaseModel):
-    annual_series: list[DataSeries]
-    monthly_series: list[DataSeries]
-    daily_series: list[DataSeries]
+    annual_series: list[DataSeries] = []
+    monthly_series: list[DataSeries] = []
+    daily_series: list[DataSeries] = []
 
 
 def historical_series_available(
