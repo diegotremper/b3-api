@@ -1,5 +1,10 @@
 name: Test code and app
 on:
+  push:
+    paths:
+      - b3_api/**
+      - tests/**
+      - .github/workflows/run_test.yaml
   pull_request:
     paths:
       - b3_api/**
