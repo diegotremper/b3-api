@@ -4,7 +4,7 @@ from typing import Optional
 from pydantic import BaseModel
 
 from b3_api.api_configs import APIConfigs
-from b3_api.api_utils import encode_param
+from b3_api.api_utils import _get_and_parse, encode_param
 
 
 class Fund(BaseModel):
@@ -57,14 +57,6 @@ def fund_detail(symbol: str, configs: APIConfigs = APIConfigs()) -> Fund:
     from b3_api.api_utils import request_session
 
     session = request_session("fund_detail", timedelta(days=30))
+    payload: _Payload = _get_and_parse(session, url, _Payload, configs)
 
-    response = session.get(url, headers=configs.default_headers)
-
-    if response.status_code != 200:
-        raise Exception(
-            "Error getting fund details for {}, code: {}".format(
-                symbol, response.status_code
-            )
-        )
-
-    return _Payload.parse_raw(response.json()).detailFund
+    return payload.detailFund

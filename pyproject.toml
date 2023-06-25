@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "b3-api"
-version = "0.1.18"
+version = "0.1.19"
 description = ""
 authors = ["Diego"]
 readme = "README.md"

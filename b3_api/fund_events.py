@@ -4,7 +4,7 @@ from typing import Optional
 from pydantic import BaseModel, validator
 
 from b3_api.api_configs import APIConfigs
-from b3_api.api_utils import encode_param
+from b3_api.api_utils import _get_and_parse, encode_param
 
 
 class StockEvent(BaseModel):
@@ -54,21 +54,7 @@ def fund_events(
     from b3_api.api_utils import request_session
 
     session = request_session("fund_events", timedelta(days=10))
-    response = session.get(url, headers=configs.default_headers)
-
-    if response.status_code != 200:
-        raise Exception("Error getting fund details for {}".format(symbol))
-
-    try:
-        payload = _Payload.parse_raw(response.json())
-    except Exception as e:
-        if session.cache:
-            session.cache.delete(urls=[url])
-        raise Exception(
-            "Error parsing stock events for {}:\n{}".format(
-                symbol, response.text
-            )
-        ) from e
+    payload: _Payload = _get_and_parse(session, url, _Payload, configs)
 
     payload.stockDividends.sort(key=lambda e: e.lastDatePrior, reverse=True)
 

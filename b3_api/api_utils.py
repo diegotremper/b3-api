@@ -2,6 +2,7 @@ import base64
 import functools
 import json
 
+from pydantic import BaseModel
 from requests import Session
 from requests_cache import NEVER_EXPIRE, CacheMixin
 from requests_ratelimiter import LimiterMixin
@@ -41,3 +42,21 @@ def encode_param(params: dict) -> str:
     """
     json_string = json.dumps(params).encode("utf-8")
     return base64.b64encode(json_string).decode("utf-8")
+
+
+def _get_and_parse(
+    session: Session, url: str, model: BaseModel, configs: APIConfigs
+):
+    response = session.get(url, headers=configs.default_headers)
+
+    if response.status_code != 200:
+        raise Exception("Error calling GET {}".format(url))
+
+    try:
+        return model.parse_raw(response.json())
+    except Exception as e:
+        if session.cache:
+            session.cache.delete(urls=[url])
+        raise Exception(
+            "Error parsing response for {}:\n{}".format(url, response.text)
+        ) from e
