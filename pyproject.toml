@@ -9,7 +9,7 @@ packages = [{include = "b3_api"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 immutables = "^0.19"
-requests-cache = "^1.0.1"
+requests-cache = "^1.1.0"
 pydantic = "^1.10.9"
 beautifulsoup4 = "^4.12.2"
 loguru = "^0.7.0"
