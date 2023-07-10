@@ -10,7 +10,7 @@ packages = [{include = "b3_api"}]
 python = "^3.8"
 immutables = "^0.19"
 requests-cache = "^1.1.0"
-pydantic = "^1.10.9"
+pydantic = "^2.0.2"
 beautifulsoup4 = "^4.12.2"
 loguru = "^0.7.0"
 html5lib = "^1.1"
